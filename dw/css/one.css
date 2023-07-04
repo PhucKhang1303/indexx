@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+
+.container{
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-rows: 100px 900px 80px ;
+	background: #265406;
+	grid-template-areas: 
+		"aa bb ee" 
+		"cc cc cc "
+	    "dd dd dd "
+}
+.menu{
+/*
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+*/
+/*	align-items: center;*/
+	background: #FFFFFF;
+/*	border: 1px solid #000000;*/
+	
+}
+.menu01{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	grid-area: aa
+}
+.menu02{
+		
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	grid-area: bb
+}
+.menu05{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	grid-area: ee;
+	
+}
+
+.menu03{
+	padding-top: 10px;
+	grid-area: cc
+}
+.menu04{
+	
+	grid-area: dd
+}
+
+.containerone{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 700px 900px 80px 80px  ;
+/*	background: #265406;*/
+	grid-template-areas: 
+		"one one two two " 
+		
+}
+.content{
+/*	background: #6ED570;*/
+	border: 1px solid ;
+	
+}
+.content1{
+	grid-area: one ;
+	display: flex;
+	justify-content: center;
+	align-items:center
+}
+	
+
+
+.ct1 img{
+	border-radius: 50px;
+}
+.content2{
+	grid-area: two;
+	
+}
+.ct2{
+	margin: 100px
+	
+}
+.ct2 h1 {
+/*	text-align: center;*/
+	
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
